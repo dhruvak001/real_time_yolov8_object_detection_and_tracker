@@ -26,11 +26,9 @@ bash-
 `pip install ultralytics opencv-python pandas`
 
 ### Setting Up the Project
-* Clone the Repository:
-
-`git clone https://github.com/your-username/drone-object-tracking.git`
-
- `cd drone-object-tracking`
+* Clone the Repository:</br>
+`git clone https://github.com/your-username/drone-object-tracking.git`</br>
+`cd drone-object-tracking`
 
 * Ensure the YOLO model file is available:<br/>
  Place yolov8s.pt in the project directory or specify the correct path.
@@ -40,15 +38,13 @@ Ensure that the coco.txt file, containing class names for YOLO, is placed in the
 
 ### Running the Code
 * Processing a Video File:<br/>
-Uncomment the line in drone.py related to video processing and specify the path to your video file:
+Uncomment the line in drone.py related to video processing and specify the path to your video file:<br>
+`process_video('path/to/your/video.mp4`
 
-`process_video('path/to/your/video.mp4
-`
 * Processing a Sequence of Images:<br/>
-Uncomment the line in drone.py related to image processing and specify the path to your image folder:
+Uncomment the line in drone.py related to image processing and specify the path to your image folder:</br>
+`process_images('/Users/sanjay/Documents/autosky/dataset/test')`
 
-`process_images('/Users/sanjay/Documents/autosky/dataset/test')
-`
 * Execute the Script:<br/>
 `python drone.py`
 
