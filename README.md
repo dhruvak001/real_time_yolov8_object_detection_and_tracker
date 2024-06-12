@@ -46,7 +46,7 @@ Uncomment the line in drone.py related to image processing and specify the path 
 `process_images('/path/to/your/images')`
 
 * Execute the Script:<br/>
-`python drone.py`
+`python drone1.py`
 
 ## Conclusion
 This project demonstrates a practical application of deep learning for real-time object detection and tracking using YOLOv8 and a custom tracking algorithm. The detailed instructions and code ensure you can easily set up and run the project to process video feeds or sequences of images for object tracking and location reporting.
