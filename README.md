@@ -43,7 +43,7 @@ Uncomment the line in drone.py related to video processing and specify the path 
 
 * Processing a Sequence of Images:<br/>
 Uncomment the line in drone.py related to image processing and specify the path to your image folder:</br>
-`process_images('/Users/sanjay/Documents/autosky/dataset/test')`
+`process_images('/path/to/your/images')`
 
 * Execute the Script:<br/>
 `python drone.py`
