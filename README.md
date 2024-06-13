@@ -5,6 +5,8 @@ The project involves using a YOLO (You Only Look Once) model for object detectio
 * YOLO Model: Utilizes the YOLOv8 model for object detection.
 * Tracker: Maintains object identities across frames based on the object's center positions.
 * Frame Processing: Integrates the YOLO model and tracker to process each frame and display the results.
+* Can input a series of frames ot video on depending on the input.
+* Edit the Send Loaction function according to your needs
   
 ## File Structure
 * drone1.py: Main script for processing video or image sequences.
