@@ -13,7 +13,7 @@ The project involves using a YOLO (You Only Look Once) model for object detectio
 * tracker.py: Contains the Tracker class for maintaining object identities.
 
 ## Dependencies
-* cv2 (OpenCV): For handling image and video processing.
+* OpenCV: For handling image and video processing.
 * pandas: For handling detection data.
 * ultralytics: For loading and using the YOLO model.
 * os: For file handling.
